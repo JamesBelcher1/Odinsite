@@ -1,0 +1,63 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo {
+    font-family: roboto;
+    font-size: 20px;
+    padding-left: 15rem;
+
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-right: 15rem;
+}
+
+.list li {
+    margin: 0 0.1rem;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white; 
+    padding: 4rem 15rem; 
+    padding-left: 15rem;
+    font-weight: 900;
+}
+
+.intro {
+    font-size: 48px;
+}
+
+.para {
+    font-size: 18px;
+}
+
+
+.button {
+    padding: 10px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 100px;
+    line-height: 10px;
+    text-align: center;
+    
+}
+
+.image {
+    width: 400px;
+    
+}
