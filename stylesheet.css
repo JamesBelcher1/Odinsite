@@ -12,6 +12,9 @@
     justify-content: space-between;
     background-color: #1F2937;
     color: white;padding-top: 2rem;
+    height: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .logo {
@@ -24,7 +27,7 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    padding-right: 15rem;
+    padding-right: 20rem;
 }
 
 .list li {
@@ -40,19 +43,27 @@
     color: white; 
     padding: 4rem 15rem; 
     padding-left: 15rem;
+    padding-bottom: 10rem;
     font-weight: 900;
+    height: 5rem;
 }
 
 .intro {
     font-size: 48px;
+    padding-left: 10rem;
 }
 
 .para {
     font-size: 18px;
+    font-style: italic;
+    overflow-wrap: normal;
+    padding-left: 10rem;
 }
 
 
 .button {
+    margin-top: 1rem;
+    margin-left: 10rem;
     padding: 10px;
     border-color: #3882F6;
     border-radius: 10px;
@@ -65,17 +76,19 @@
 
 .image {
     width: 400px;   
+    padding-right: 5rem;
 }
 
 
-
-
-
+.information {
+    height: 30rem;
+}
 
 .random {
     display: flex;
     justify-content: center;
     font-size: 36px;
+    padding-top: 5rem;
 }
 
 .containers {
@@ -84,6 +97,7 @@
     gap: 2rem;
     margin-top: 2rem;
     flex-wrap: wrap; 
+    padding-bottom: 5rem;
 }
 
 .container1,
@@ -113,12 +127,13 @@
 
 
 
-
 .quotation {
     background-color: #E5E7EB;
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .quote {
@@ -126,13 +141,13 @@
     margin-right: 30rem;
     font-size: 36px;
     font-style: italic;
+    text-align: left;
 }
 
 .author {
     font-size: 20px;
-    font-weight: 300;
     text-align: right;
-    margin-right: 25rem;
+    margin-left: 30rem;
 }
 
 
@@ -171,7 +186,7 @@
     line-height: 1px;
     padding-left: 3rem;
     color: white;
-    line-height: 25px;
+    line-height: 50px;
 }
 
 .signup2 {
@@ -179,8 +194,8 @@
     border-color: white;
     border-radius: 10px;
     background-color: #3882F6;
-    width: 200px;
-    height: 50px;
+    width: 120px;
+    height: 30px;
     line-height: 0px;
     text-align: center;
     margin-right: 100px;
